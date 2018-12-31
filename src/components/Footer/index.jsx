@@ -1,20 +1,23 @@
 import React from "react";
 
 const Footer = () => (
-  <div className="bg-blue">
+  <div className="bg-grey-lighter shadow-inner">
     <div className="flex justify-between max-w-xl mx-auto p-4 md:p-8 text-sm">
-      <p className="text-white">
-        Created by{" "}
-        <a href="https://andrewmason.me" className="no-underline text-white">
+      <p className="text-indigo-darkest">
+        © 2018{" "}
+        <a
+          href="https://andrewmason.me"
+          className="no-underline text-indigo-darkest"
+        >
           Andrew Mason
         </a>
       </p>
       <p>
         <a
-          href="https://github.com/andrewmcodes"
-          className="font-semibold no-underline text-white"
+          href="https://andrewmason.me/contact"
+          className="font-semibold no-underline text-indigo-darkest"
         >
-          GitHub
+          Contact me
         </a>
       </p>
     </div>

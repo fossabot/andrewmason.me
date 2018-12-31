@@ -4,9 +4,11 @@ import OSS from "../images/oss.svg";
 
 const ProjectsPage = () => (
   <div className="text-center">
-    <img src={OSS} className="block mx-auto w-1/2" />
-    <h2 className="inline-block my-8 p-3">My Projects</h2>
-    <p className="leading-loose">Checkout what I am working on!</p>
+    <img src={OSS} className="block mx-auto w-3/4" />
+    <h2 className="inline-block my-6 text-left sm:text-4xl leading-tight sm:leading-normal">
+      My Projects
+    </h2>
+    <p className="text-lg leading-loose italic">Coming Soon!</p>
   </div>
 );
 

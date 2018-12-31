@@ -11,8 +11,8 @@ const Header = () => {
   };
 
   return (
-    <nav className="bg-blue">
-      <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
+    <nav className="bg-indigo-darkest">
+      <div className="flex flex-wrap items-center justify-between max-w-4xl mx-auto p-4 md:p-8">
         <Link to="/" className="flex items-center no-underline text-white">
           <span className="font-semibold text-xl tracking-wide">
             Andrew Mason{" "}
@@ -38,13 +38,13 @@ const Header = () => {
           <div className="text-sm font-semibold">
             <Link
               to="/"
-              className="block mt-8 sm:mt-4 md:inline-block md:mt-0 sm:mr-6 no-underline text-white"
+              className="block mt-8 sm:mt-4 md:inline-block md:mt-0 sm:mr-12 no-underline text-white"
             >
               Home{" "}
             </Link>
             <Link
               to="/projects"
-              className="block md:inline-block mt-8 sm:mt-4 md:mt-0 sm:mr-6 no-underline text-white"
+              className="block md:inline-block mt-8 sm:mt-4 md:mt-0 sm:mr-12 no-underline text-white"
             >
               Projects{" "}
             </Link>
