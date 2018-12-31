@@ -4,7 +4,11 @@ import Programmer from "../images/programmer.svg";
 
 const IndexPage = () => (
   <div className="text-center">
-    <img src={Programmer} className="block mx-auto w-3/4" />
+    <img
+      src={Programmer}
+      className="block mx-auto w-3/4"
+      alt="Programming Undraw Graphic"
+    />
     <h2 className="inline-block my-6 text-left sm:text-4xl leading-tight sm:leading-normal">
       Hi, I'm <span className="text-blue">Andrew</span>. A full stack software
       engineer, designer, and open source enthusiast.{" "}

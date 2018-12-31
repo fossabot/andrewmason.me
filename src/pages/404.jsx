@@ -3,7 +3,11 @@ import Taken from "../images/taken.svg";
 
 const NotFoundPage = () => (
   <div>
-    <img src={Taken} className="block mx-auto w-1/2" />
+    <img
+      src={Taken}
+      className="block mx-auto w-1/2"
+      alt="404 Not Found Graphic"
+    />
     <h2 className="bg-yellow inline-block my-8 p-3">
       Looks like this page is a ghost that got abducted by aliens...
     </h2>

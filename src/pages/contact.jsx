@@ -8,7 +8,11 @@ import { FaTwitterSquare } from "react-icons/fa";
 
 const ContactPage = () => (
   <div>
-    <img src={Contact} className="block mx-auto w-3/4 sm:w-3/5 mb-8 sm:mb-16" />
+    <img
+      src={Contact}
+      className="block mx-auto w-3/4 sm:w-3/5 mb-8 sm:mb-16"
+      alt="Emails Undraw Graphic"
+    />
     <ul className="list-reset sm:flex sm:justify-between text-3xl sm:text-4xl h-full">
       <li className="">
         <a
