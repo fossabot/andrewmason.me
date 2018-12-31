@@ -43,10 +43,10 @@ const Header = () => {
               Home{" "}
             </Link>
             <Link
-              to="/about"
+              to="/projects"
               className="block md:inline-block mt-8 sm:mt-4 md:mt-0 sm:mr-6 no-underline text-white"
             >
-              About{" "}
+              Projects{" "}
             </Link>
             <Link
               to="/contact"
