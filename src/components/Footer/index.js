@@ -7,15 +7,15 @@ const Footer = () => (
         Created by{" "}
         <a
           href="https://taylorbryant.blog"
-          className="font-bold no-underline text-white"
+          className="no-underline text-white"
         >
-          Taylor Bryant
+          Andrew Mason
         </a>
       </p>
       <p>
         <a
-          href="https://github.com/taylorbryant/gatsby-starter-tailwind"
-          className="font-bold no-underline text-white"
+          href="https://github.com/andrewmcodes"
+          className="font-semibold no-underline text-white"
         >
           GitHub
         </a>
