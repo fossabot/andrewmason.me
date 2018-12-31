@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import "./index.css";
 
 const TemplateWrapper = ({ children }) => (
-  <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
+  <div className="flex flex-col font-sans min-h-screen text-grey-darkest bg-grey-lighter">
     <Helmet
       title="Andrew Mason"
       meta={[
