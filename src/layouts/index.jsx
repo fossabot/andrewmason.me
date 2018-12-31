@@ -15,10 +15,11 @@ const TemplateWrapper = ({ children }) => (
         {
           name: "keywords",
           content: "andrew, mason, portfolio, personal, programmer, programming"
-        },
-        { name: "lang", content: "en-US" }
+        }
       ]}
-    />
+    >
+      <html lang="en" />
+    </Helmet>
     <Header />
     <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
       {children()}
