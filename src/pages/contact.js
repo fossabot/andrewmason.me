@@ -1,58 +1,37 @@
 import React from "react";
 import Link from "gatsby-link";
+import Mail from "../images/icons/mail.svg";
+import Github from "../images/icons/github.svg";
+import Twitter from "../images/icons/twitter.svg";
+import Linkedin from "../images/icons/linkedin.svg";
 
 const ContactPage = () => (
-  <form className="mx-auto md:w-1/2">
-    <p className="leading-loose mb-8">
-      Here is an example of a form built using Tailwind. Click{" "}
-      <a
-        href="https://tailwindcss.com/docs/examples/forms"
-        className="font-bold no-underline text-grey-darkest"
-      >
-        here
-      </a>{" "}
-      to see more examples.
-    </p>
-
-    <label
-      className="block font-bold mb-2 text-xs uppercase"
-      htmlFor="first-name"
-    >
-      First Name
-    </label>
-    <input
-      className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
-      id="first-name"
-      type="text"
-      placeholder="Bill"
-    />
-
-    <label
-      className="block font-bold mb-2 text-xs uppercase"
-      htmlFor="last-name"
-    >
-      Last Name
-    </label>
-    <input
-      className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
-      id="last-name"
-      type="text"
-      placeholder="Murray"
-    />
-
-    <label className="block font-bold mb-2 text-xs uppercase" htmlFor="message">
-      Message
-    </label>
-    <textarea
-      className="appearance-none bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
-      placeholder="Say something..."
-      rows="8"
-    />
-
-    <button className="border-b-4 border-grey-darker hover:border-grey-dark bg-grey-dark hover:bg-grey font-bold px-6 py-3 rounded text-sm text-white">
-      Submit
-    </button>
-  </form>
+  <ul className="list-reset sm:flex sm:justify-between text-2xl">
+    <li className="">
+      <a className="flex flex-col text-center mb-8 sm:mb-2" href="mailto:masonam96@outlook.com?Subject=Hello!">
+        <img className="mx-auto mb-2" src={Mail} width="48px" alt="email icon"/>
+        Email
+      </a>
+    </li>
+    <li className="">
+      <a className="flex flex-col text-center mb-8 sm:mb-2" href="https://www.linkedin.com/in/andrew-mason">
+        <img className="mx-auto mb-2" src={Linkedin} width="48px" alt=""/>
+        LinkedIn
+      </a>
+    </li>
+    <li className="">
+      <a className="flex flex-col text-center mb-8 sm:mb-2" href="https://twitter.com/andrewmcodes">
+        <img className="mx-auto mb-2" src={Twitter} width="48px" alt=""/>
+        Twitter
+      </a>
+    </li>
+    <li className="">
+      <a className="flex flex-col text-center mb-8 sm:mb-2" href="https://github.com/andrewmcodes">
+        <img className="mx-auto mb-2" src={Github} width="48px" alt=""/>
+        Github
+      </a>
+    </li>
+  </ul>
 );
 
 export default ContactPage;
