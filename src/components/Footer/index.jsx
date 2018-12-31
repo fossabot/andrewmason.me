@@ -8,6 +8,8 @@ const Footer = () => (
         <a
           href="https://andrewmason.me"
           className="no-underline text-indigo-darkest"
+          target="_blank"
+          rel="noopener"
         >
           Andrew Mason
         </a>
@@ -16,6 +18,8 @@ const Footer = () => (
         <a
           href="https://andrewmason.me/contact"
           className="font-semibold no-underline text-indigo-darkest"
+          target="_blank"
+          rel="noopener"
         >
           Contact me
         </a>

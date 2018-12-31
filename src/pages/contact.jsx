@@ -18,6 +18,8 @@ const ContactPage = () => (
         <a
           className="flex flex-col text-center mb-12 sm:mb-2 text-indigo-darker no-underline font-semibold"
           href="mailto:masonam96@outlook.com?Subject=Hello!"
+          target="_blank"
+          rel="noopener"
         >
           <FaEnvelope className="text-center w-full mb-4" />
           Email
@@ -27,6 +29,8 @@ const ContactPage = () => (
         <a
           className="flex flex-col text-center mb-12 sm:mb-2 text-indigo-darker no-underline font-semibold"
           href="https://www.linkedin.com/in/andrew-mason"
+          target="_blank"
+          rel="noopener"
         >
           <FaLinkedin className="text-center w-full mb-4" />
           LinkedIn
@@ -36,6 +40,8 @@ const ContactPage = () => (
         <a
           className="flex flex-col text-center mb-12 sm:mb-2 text-indigo-darker no-underline font-semibold"
           href="https://twitter.com/andrewmcodes"
+          target="_blank"
+          rel="noopener"
         >
           <FaTwitterSquare className="text-center w-full mb-4" />
           Twitter
@@ -45,6 +51,8 @@ const ContactPage = () => (
         <a
           className="flex flex-col text-center mb-6 sm:mb-2 text-indigo-darker no-underline font-semibold"
           href="https://github.com/andrewmcodes"
+          target="_blank"
+          rel="noopener"
         >
           <FaGithub className="text-center w-full mb-4" />
           Github
