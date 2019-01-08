@@ -36,7 +36,7 @@ export default class Header extends React.Component {
         <div className="flex flex-wrap items-center justify-between max-w-4xl mx-auto ">
           <Link
             to="/"
-            className="flex items-center no-underline text-indigo-darkest p-4 md:p-8"
+            className="flex items-center no-underline text-indigo-darkest p-4 md:p-8 sm:hover:text-blue antialiased"
           >
             <span className="font-semibold text-xl tracking-wide">
               Andrew Mason{" "}
@@ -62,21 +62,21 @@ export default class Header extends React.Component {
             <div className="text-sm font-semibold">
               <Link
                 to="/"
-                className="block py-6 hover:bg-indigo-darkest hover:text-white sm:inline-block sm:mt-0 sm:mr-12 no-underline text-indigo-darkest shadow-inner sm:shadow-none"
+                className="antialiased block py-6 sm:hover:bg-grey-lightest sm:hover:text-blue hover:bg-indigo-darkest hover:text-white sm:inline-block sm:mt-0 sm:mr-12 no-underline text-indigo-darkest shadow-inner sm:shadow-none"
                 onClick={this.toggleNavbar}
               >
                 Home{" "}
               </Link>
               <Link
                 to="/projects"
-                className="block sm:inline-block py-6 hover:bg-indigo-darkest hover:text-white sm:mt-0 sm:mr-12 no-underline text-indigo-darkest shadow-inner sm:shadow-none"
+                className="antialiased block sm:inline-block py-6 sm:hover:bg-grey-lightest sm:hover:text-blue hover:bg-indigo-darkest hover:text-white sm:mt-0 sm:mr-12 no-underline text-indigo-darkest shadow-inner sm:shadow-none"
                 onClick={this.toggleNavbar}
               >
                 Projects{" "}
               </Link>
               <Link
                 to="/contact"
-                className="block sm:inline-block py-6 hover:bg-indigo-darkest hover:text-white sm:mt-0 no-underline text-indigo-darkest shadow-inner sm:shadow-none sm:mr-8"
+                className="antialiased block sm:inline-block py-6 sm:hover:bg-grey-lightest sm:hover:text-blue hover:bg-indigo-darkest hover:text-white sm:mt-0 no-underline text-indigo-darkest shadow-inner sm:shadow-none sm:mr-8"
                 onClick={this.toggleNavbar}
               >
                 Contact{" "}

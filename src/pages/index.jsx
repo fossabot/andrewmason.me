@@ -1,11 +1,11 @@
 import React from "react";
 import Link from "gatsby-link";
-import Programmer from "../images/programmer.svg";
+// import Programmer from "https://res.cloudinary.com/onshore-studios/image/upload/v1546924147/andrewmason.me/programmer.svg";
 
 const IndexPage = () => (
   <div className="text-center">
     <img
-      src={Programmer}
+      src="https://res.cloudinary.com/onshore-studios/image/upload/v1546924147/andrewmason.me/programmer.svg"
       className="block mx-auto w-3/4"
       alt="Programming Undraw Graphic"
     />
@@ -25,6 +25,7 @@ const IndexPage = () => (
         href="https://twitter.com/andrewmcodes"
         target="_blank"
         className="text-blue hover:text-white no-underline font-semibold"
+        rel="noopener"
       >
         Twitter
       </a>

@@ -1,10 +1,10 @@
 import React from "react";
-import Taken from "../images/taken.svg";
+// import Taken from "../images/taken.svg";
 
 const NotFoundPage = () => (
   <div>
     <img
-      src={Taken}
+      src="https://res.cloudinary.com/onshore-studios/image/upload/v1546924147/andrewmason.me/taken.svg"
       className="block mx-auto w-1/2"
       alt="404 Not Found Graphic"
     />

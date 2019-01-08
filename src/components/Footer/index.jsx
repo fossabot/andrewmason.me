@@ -6,7 +6,7 @@ import { FaTwitterSquare } from "react-icons/fa";
 const Footer = () => (
   <div className="bg-grey-lighter shadow-inner ">
     <div className="align-baseline flex flex-col-reverse md:flex-row md:justify-between max-w-xl mx-auto p-4 md:p-8 md:pb-2 text-sm">
-      <p className="w-full md:w-3/4 text-center md:text-left mt-4 sm:mt-0 text-indigo-dark">
+      <p className="w-full md:w-3/4 text-center md:text-left mt-4 sm:mt-0 text-indigo-darkest">
         © 2018{" "}
         <a
           href="https://andrewmason.me"
@@ -24,6 +24,8 @@ const Footer = () => (
             href="mailto:masonam96@outlook.com?Subject=Hello!"
             target="_blank"
             rel="noopener"
+            aria-label="Email"
+            rel="noopener"
           >
             <FaEnvelope className="text-center w-full mb-4" />
           </a>
@@ -33,6 +35,8 @@ const Footer = () => (
             className="flex flex-col text-center text-indigo-darker hover:text-blue no-underline font-semibold"
             href="https://www.linkedin.com/in/andrew-mason"
             target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
             rel="noopener"
           >
             <FaLinkedin className="text-center w-full mb-4" />
@@ -44,6 +48,8 @@ const Footer = () => (
             href="https://twitter.com/andrewmcodes"
             target="_blank"
             rel="noopener"
+            aria-label="Twitter"
+            rel="noopener"
           >
             <FaTwitterSquare className="text-center w-full mb-4" />
           </a>
@@ -53,6 +59,8 @@ const Footer = () => (
             className="flex flex-col text-center text-indigo-darker hover:text-blue no-underline font-semibold"
             href="https://github.com/andrewmcodes"
             target="_blank"
+            rel="noopener"
+            aria-label="Github"
             rel="noopener"
           >
             <FaGithub className="text-center w-full mb-4" />

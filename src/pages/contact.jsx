@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
-import Contact from "../images/contact.svg";
+// import Contact from "https://res.cloudinary.com/onshore-studios/image/upload/v1546924147/andrewmason.me/contact.svg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
@@ -9,8 +9,8 @@ import { FaTwitterSquare } from "react-icons/fa";
 const ContactPage = () => (
   <div>
     <img
-      src={Contact}
-      className="block mx-auto w-3/4 sm:w-3/5 "
+      src="https://res.cloudinary.com/onshore-studios/image/upload/v1546924147/andrewmason.me/contact.svg"
+      className="block mx-auto w-3/4 sm:w-3/5 mb-8 sm:mb-16"
       alt="Emails Undraw Graphic"
     />
     <ul className="mt-16 list-reset flex flex-wrap sm:justify-between text-3xl sm:text-4xl h-full">
@@ -19,6 +19,8 @@ const ContactPage = () => (
           className="flex flex-col text-center mb-12 sm:mb-2 text-grey-lightest hover:text-blue no-underline font-semibold"
           href="mailto:masonam96@outlook.com?Subject=Hello!"
           target="_blank"
+          rel="noopener"
+          aria-label="Email"
           rel="noopener"
         >
           <FaEnvelope className="text-center w-full mb-4" />
@@ -31,6 +33,8 @@ const ContactPage = () => (
           href="https://www.linkedin.com/in/andrew-mason"
           target="_blank"
           rel="noopener"
+          aria-label="LinkedIn"
+          rel="noopener"
         >
           <FaLinkedin className="text-center w-full mb-4" />
           LinkedIn
@@ -42,6 +46,8 @@ const ContactPage = () => (
           href="https://twitter.com/andrewmcodes"
           target="_blank"
           rel="noopener"
+          aria-label="Twitter"
+          rel="noopener"
         >
           <FaTwitterSquare className="text-center w-full mb-4" />
           Twitter
@@ -52,6 +58,8 @@ const ContactPage = () => (
           className="flex flex-col text-center mb-6 sm:mb-2 text-grey-lightest hover:text-blue no-underline font-semibold"
           href="https://github.com/andrewmcodes"
           target="_blank"
+          rel="noopener"
+          aria-label="Github"
           rel="noopener"
         >
           <FaGithub className="text-center w-full mb-4" />
