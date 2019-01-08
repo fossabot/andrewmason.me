@@ -54,26 +54,26 @@ render() {
           </button>
           <div
             id="nav"
-            className="text-center hidden md:flex md:items-center w-full md:w-auto"
+            className="text-center hidden lg:flex lg:items-center w-full lg:w-auto"
           >
             <div className="text-sm font-semibold">
               <Link
                 to="/"
-                className="block mt-8 sm:mt-4 md:inline-block md:mt-0 sm:mr-12 no-underline text-white"
+                className="block mt-8 sm:mt-4 lg:inline-block lg:mt-0 sm:mr-12 no-underline text-white"
                 onClick={this.toggleNavbar}
               >
                 Home{" "}
               </Link>
               <Link
                 to="/projects"
-                className="block md:inline-block mt-8 sm:mt-4 md:mt-0 sm:mr-12 no-underline text-white"
+                className="block lg:inline-block mt-8 sm:mt-4 lg:mt-0 sm:mr-12 no-underline text-white"
                 onClick={this.toggleNavbar}
               >
                 Projects{" "}
               </Link>
               <Link
                 to="/contact"
-                className="block md:inline-block mt-8 sm:mt-4 md:mt-0 no-underline text-white"
+                className="block lg:inline-block mt-8 sm:mt-4 lg:mt-0 no-underline text-white"
                 onClick={this.toggleNavbar}
               >
                 Contact{" "}
