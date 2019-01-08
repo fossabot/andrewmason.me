@@ -40,7 +40,7 @@ render() {
             </span>{" "}
           </Link>
           <button
-            className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-white"
+            className="block sm:hidden border border-white flex items-center px-3 py-2 rounded text-white"
             onClick={this.toggleNavbar}
           >
             <svg
@@ -54,26 +54,26 @@ render() {
           </button>
           <div
             id="nav"
-            className="text-center hidden lg:flex lg:items-center w-full lg:w-auto"
+            className="text-center hidden sm:flex sm:items-center w-full sm:w-auto"
           >
             <div className="text-sm font-semibold">
               <Link
                 to="/"
-                className="block mt-8 sm:mt-4 lg:inline-block lg:mt-0 sm:mr-12 no-underline text-white"
+                className="block mt-8 sm:inline-block sm:mt-0 sm:mr-12 no-underline text-white"
                 onClick={this.toggleNavbar}
               >
                 Home{" "}
               </Link>
               <Link
                 to="/projects"
-                className="block lg:inline-block mt-8 sm:mt-4 lg:mt-0 sm:mr-12 no-underline text-white"
+                className="block sm:inline-block mt-8 sm:mt-0 sm:mr-12 no-underline text-white"
                 onClick={this.toggleNavbar}
               >
                 Projects{" "}
               </Link>
               <Link
                 to="/contact"
-                className="block lg:inline-block mt-8 sm:mt-4 lg:mt-0 no-underline text-white"
+                className="block sm:inline-block mt-8 sm:mt-0 no-underline text-white"
                 onClick={this.toggleNavbar}
               >
                 Contact{" "}
