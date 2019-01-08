@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import "./index.css";
 
 const TemplateWrapper = ({ children }) => (
-  <div className="flex flex-col font-sans min-h-screen text-grey-darkest bg-grey-lightest">
+  <div className="flex flex-col font-sans min-h-screen text-grey-lightest bg-indigo-darkest">
     <Helmet
       title="Andrew Mason"
       meta={[
@@ -21,7 +21,7 @@ const TemplateWrapper = ({ children }) => (
       <html lang="en" />
     </Helmet>
     <Header />
-    <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
+    <div className="mt-12 flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
       {children()}
     </div>
     <Footer />

@@ -24,7 +24,7 @@ const IndexPage = () => (
       <a
         href="https://twitter.com/andrewmcodes"
         target="_blank"
-        className="text-indigo-darkest no-underline font-semibold"
+        className="text-blue hover:text-white no-underline font-semibold"
       >
         Twitter
       </a>

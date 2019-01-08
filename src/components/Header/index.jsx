@@ -28,19 +28,22 @@ export default class Header extends React.Component {
     const el = document.getElementById("nav");
     el.classList.toggle("block");
     el.classList.toggle("hidden");
-  };
+  }
 
-render() {
+  render() {
     return (
-      <nav className="bg-indigo-darkest">
-        <div className="flex flex-wrap items-center justify-between max-w-4xl mx-auto p-4 md:p-8">
-          <Link to="/" className="flex items-center no-underline text-white">
+      <nav className="bg-grey-lightest shadow-md z-10 absolute w-full">
+        <div className="flex flex-wrap items-center justify-between max-w-4xl mx-auto ">
+          <Link
+            to="/"
+            className="flex items-center no-underline text-indigo-darkest p-4 md:p-8"
+          >
             <span className="font-semibold text-xl tracking-wide">
               Andrew Mason{" "}
             </span>{" "}
           </Link>
           <button
-            className="block sm:hidden border border-white flex items-center px-3 py-2 rounded text-white"
+            className="mr-4 sm:mr-8 block sm:hidden border border-indigo-darkest hover:bg-indigo-darkest hover:text-grey-lightest focus:bg-indigo-darkest focus:text-grey-lightest flex items-center px-3 py-2 rounded text-indigo-darkest"
             onClick={this.toggleNavbar}
           >
             <svg
@@ -59,21 +62,21 @@ render() {
             <div className="text-sm font-semibold">
               <Link
                 to="/"
-                className="block mt-8 sm:inline-block sm:mt-0 sm:mr-12 no-underline text-white"
+                className="block py-6 hover:bg-indigo-darkest hover:text-white sm:inline-block sm:mt-0 sm:mr-12 no-underline text-indigo-darkest shadow-inner sm:shadow-none"
                 onClick={this.toggleNavbar}
               >
                 Home{" "}
               </Link>
               <Link
                 to="/projects"
-                className="block sm:inline-block mt-8 sm:mt-0 sm:mr-12 no-underline text-white"
+                className="block sm:inline-block py-6 hover:bg-indigo-darkest hover:text-white sm:mt-0 sm:mr-12 no-underline text-indigo-darkest shadow-inner sm:shadow-none"
                 onClick={this.toggleNavbar}
               >
                 Projects{" "}
               </Link>
               <Link
                 to="/contact"
-                className="block sm:inline-block mt-8 sm:mt-0 no-underline text-white"
+                className="block sm:inline-block py-6 hover:bg-indigo-darkest hover:text-white sm:mt-0 no-underline text-indigo-darkest shadow-inner sm:shadow-none sm:mr-8"
                 onClick={this.toggleNavbar}
               >
                 Contact{" "}
@@ -83,5 +86,5 @@ render() {
         </div>{" "}
       </nav>
     );
-  };
-};
+  }
+}
