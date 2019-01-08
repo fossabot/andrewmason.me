@@ -19,6 +19,7 @@ const ProjectsPage = () => (
         href="https://github.com/andrewmcodes"
         target="_blank"
         className="text-blue hover:text-white no-underline font-semibold"
+        rel="noopener"
       >
         Github
       </a>
