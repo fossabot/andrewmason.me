@@ -12,7 +12,7 @@ const IndexPage = () => (
       alt="Programming Undraw Graphic"
     />
 
-    <h2 className="mt-6 mb-3 inline-block w-full text-left sm:text-4xl leading-tight sm:leading-normal">
+    <h1 className="mt-12 sm:mt-6 mb-4 sm:mb-3 inline-block w-full text-left sm:text-4xl leading-tight sm:leading-normal">
       <Typist
         className='flash'
         avgTypingDelay={90}
@@ -24,17 +24,17 @@ const IndexPage = () => (
       >
         Hello, I'm <span className="text-blue">Andrew</span>.<br />
         <Typist.Delay ms={1250} />
-        <h4 className="sm:text-2xl inline-block">full stack software engineer...</h4>
+        <h4 className="text-2xl inline-block">full stack software engineer...</h4>
         <Typist.Backspace count={31} delay={2400} avgTypingSpeed={40} />
-        <h4 className="sm:text-2xl inline-block">rubyist...</h4>
+        <h4 className="text-2xl inline-block">rubyist...</h4>
         <Typist.Backspace count={10} delay={2400} avgTypingSpeed={40} />
-        <h4 className="sm:text-2xl inline-block">graphic designer...</h4>
+        <h4 className="text-2xl inline-block">graphic designer...</h4>
         <Typist.Backspace count={19} delay={2400} avgTypingSpeed={40} />
-        <h4 className="sm:text-2xl inline-block">open source enthusiast...</h4>
+        <h4 className="text-2xl inline-block">open source enthusiast...</h4>
         <Typist.Backspace count={25} delay={2400} avgTypingSpeed={40} />
-        <h4 className="sm:text-2xl inline-block">Welcome to my website!</h4>
+        <h4 className="text-2xl inline-block">Welcome to my website!</h4>
       </Typist>{" "}
-    </h2>
+    </h1>
     <p className="leading-loose text-left mb-6">
       Currently residing in Wilmington, North Carolina, I spend the majority of
       my time working as full stack engineer, focusing on Ruby on Rails and
