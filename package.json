@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "gatsby-plugin-eslint": "^2.0.1",
-    "prettier": "^1.15.2",
+    "prettier": "^1.16.4",
     "purgecss": "^1.1.0",
     "tailwindcss": "^0.7.4"
   }
