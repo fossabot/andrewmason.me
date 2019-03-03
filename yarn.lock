@@ -2,17 +2,10 @@
 # yarn lockfile v1
 
 
-"@babel/runtime@^7.0.0":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2":
   version "7.3.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.3.4.tgz#73d12ba819e365fcf7fd152aed56d6df97d21c83"
   integrity sha512-IvfvnMdSaLBateu0jfsYIpZTxAc2cKEXEMiezGGN75QcBcecDUKd3PgLAncT0oOgxKy8dd8hrJKj9MfzgfZd6g==
-  dependencies:
-    regenerator-runtime "^0.12.0"
-
-"@babel/runtime@^7.1.2":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.2.0.tgz#b03e42eeddf5898e00646e4c840fa07ba8dcad7f"
-  integrity sha512-oouEibCbHMVdZSDlJBO6bZmID/zA/G/Qx3H1d3rSNPTD+L8UNKvCat7aKWSJ74zYbm5zWGh0GQN0hKj8zYFTCg==
   dependencies:
     regenerator-runtime "^0.12.0"
 
@@ -3993,7 +3986,7 @@ gatsby-plugin-favicon@^2.1.1:
     babel-runtime "^6.26.0"
     favicons-webpack-plugin "0.0.7"
 
-gatsby-plugin-google-analytics@^2.0.8:
+gatsby-plugin-google-analytics@^2.0.15:
   version "2.0.15"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.0.15.tgz#c70a69f873398b737776dd5b05abacb763fc8cc7"
   integrity sha512-XO2KVHN/pt2sNFraw+V5K026L6F72MisWAfxRm7U+zPX2cjDHN5w74fojM+6S0BPiRb4/KDitwSTVu4FQ+mEow==
